@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Visit Boucherville</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+ 
+<header>
+<div class="jumbotron text-center" style="margin-bottom:0">
+
+  <h1>Visit Boucherville</h1>
+
+  <p>Boucherville a city to discover</p>
+
+</div>
+
+ 
+
+<nav class="navbar navbar-inverse">
+
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>                       
+
+      </button>
+
+      <a href="../en/index.html">
+        <img src="../images/LogoBoucher.png" alt="logo visitez boucherville"  class="navbar-brand" width="80" height="80"  ></a>
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+
+      <ul class="nav navbar-nav">
+        <li><a href="../index.html">Home Page</a></li>
+
+        <li><a href="../en/index.html">Point of interest</a></li>
+
+        <li><a href="../en/presentation.html">Portfolio</a></li>
+            
+        <li><a href="../en/suggest-location.html">Suggestion Page</a></li>
+        <li><a href="../fr/suggerer-lieu.html" id="alt-linguistique" title="French Version" lang="en">Francais</a></li>
+      
+      
+      </ul>
+
+    </div>
+
+  </div>
+  
+          <form class="navbar-form navbar-left" action="/action_page.php">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <div class=for-group>
+            <button type="submit" class="btn btn-default">Submit</button></div>
+          </form>
+          
+        
+      </nav>
+      </header>
+      <main>
+    
+        <H1>Suggestion Page</H1>
+        
+        
+        <form action="http://jkorpela.fi/cgi-bin/echo.cgi" method="POST">
+            <p>
+              <label for="titre">Title</label><br>
+              <input type="text" name="titre" size="72" id="titre" required/>
+            </p>
+            <p>
+             <label for="Accroche">Accroche</label><br>
+             <textarea  name=Accroche cols="72" id="Accroche" rows="3" required ></textarea>
+            </p>
+            <p>
+                <label for="Description">Description</label><br>
+                <textarea name=Description cols="72" id="Description" rows="10" required ></textarea>
+            </p>
+           <p>
+         <label for="image">picture</label><br>
+          <input type="file" id="image" capture="user" accept="image/*">
+          </p>
+         <p>
+            <label for="clipaudio">Audio Clip</label><br>
+            <input type="file" id="clipaudio" capture="user" accept="audio/*" ></p>
+            <p>
+            Langue  <br>
+            <select name="langue" id="langue">
+                <Option selected="selected">Francais</Option>
+                <option>English</option>
+            </select>
+          </p>
+          <p>
+            <label for="courriel">Email</label><br>
+            <input type="email" name=courriel size="30" id="courriel" required  >
+         </p>
+         <p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+         </p>
+        </form>
+        </main>
+        <footer>
+            <h2>Contact us </h2>
+            <section>
+          <div class="contact"> 
+           <h3>Address</h3>
+           <p>813 Benjamin Loiseau <br>
+           Boucherville,Québec,J4B 3T2</p>
+
+           <p>
+            Phone: <a href="Tel:5148748588"> 514-874-8588 </a><br>
+            Email: <a href="mailto:info@visitezboucherville.com"> info@visitezboucherville.com</a></p>
+
+            
+   
+         <p>© All rights reserved 2021-2021,Visit Boucherville.</p>
+         
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2790.4222043701807!2d-73.45249988443724!3d45.622254079103165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc8e2a3178e02cf%3A0x47fac5d423b2cedc!2s813%20Rue%20Benjamin-Loiseau%2C%20Boucherville%2C%20QC!5e0!3m2!1sen!2sca!4v1619226920269!5m2!1sen!2sca" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+          </section>
+
+
+          </footer>
+</body>
+</html>
+
